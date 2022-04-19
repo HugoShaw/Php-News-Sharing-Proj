@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+ li > p, li > a {
+    display: block;
+    color: rgba(46, 10, 144, 0.986);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+#logged_in_as {
+    margin: 0;
+    font-weight: bold;
+}
+
+.stories_list{
+    padding-left: 14px;
+}
+
+.sorter {
+    margin-bottom: 20px;
+}
+
+.article_names{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgba(46, 10, 144, 0.986);
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 16px;
+}
+
+.story_info{
+    display: flex;
+}
+
+.story_info_component {
+    padding-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:rgba(92, 93, 95, 0.733)
+}
+
+.articles {
+    margin-bottom: 20px;
+}
+.story_with_buttons {
+    display: flex;
+    margin-bottom: 30px;
+}
+.edit_delete_buttons {
+    display: flex;
+}
+
+.edit_delete_button {
+    padding-right: 20px;
+}
+
+.name_form {
+    padding-right: 20px;
+}
+
+.comment {
+    padding-left: 20px;
+    margin: 0px;
+}
+
+.comments_specifcally {
+    margin-top: 10px;
+}
+
+.story_link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.story_actions {
+    display: flex;
+}
+
+.story_action_component {
+    padding-right: 20px;
+}
+
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.comment_info_component {
+    padding-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.username {
+   font-weight: bold; 
+}
+
+.comment_text {
+    padding-left: 30px;
+    margin: 0;
+}
